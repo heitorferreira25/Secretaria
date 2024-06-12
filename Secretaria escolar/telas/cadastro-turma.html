@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Turma</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="containerr">
+        <h1>Cadastrar Turma</h1>
+        <form id="classForm">
+            <div class="input-group">
+                <label for="classroom">Sala</label>
+                <input type="text" id="classroom" name="classroom" required>
+            </div>
+            <div class="input-group">
+                <label for="schedule">Horário</label>
+                <input type="text" id="schedule" name="schedule" required>
+            </div>
+            <div class="input-group">
+                <label for="course">Unidade Curricular (UC)</label>
+                <input type="text" id="course" name="course" required>
+            </div>
+            <button type="submit">Cadastrar</button>
+            <a href="/index.html">
+                <img src="/images/voltar.png" width="50px" alt="">
+            </a>
+            <div id="successMessage" class="success-message"></div>
+            <div id="errorMessage" class="error-message"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
